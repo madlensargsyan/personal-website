@@ -1,0 +1,821 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Madlen Sargsyan — UI/UX Designer</title>
+<meta name="description" content="Portfolio of Madlen Sargsyan, UI/UX designer with a graphic design background and experience in iGaming.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F6EFE3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1B0A21" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='8' fill='%23FF5A45'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<!-- Link previews. When the site has its address, change og:image and og:url to full URLs (for example https://yourdomain.com/img/og-image.jpg). -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Madlen Sargsyan — UI/UX Designer">
+<meta property="og:description" content="Thoughtful interfaces. A bold visual eye. UI/UX design shaped by a graphic design background, with experience in iGaming.">
+<meta property="og:image" content="img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;0,9..144,800;1,9..144,500;1,9..144,700&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#F6EFE3;--ink:#2A1030;--coral:#FF5A45;--panel:#2A1030;--panel-ink:#F6EFE3;--soft:#EDE2CF;--rule:#2A1030;--on-coral:#2A1030;--hair:#CDBCA6;--muted:#5E4A63;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1B0A21;--ink:#F6EFE3;--panel:#2D1235;--soft:#2D1235;--rule:#F6EFE3;--hair:#4C2E55;--muted:#C9B6CC;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1B0A21;--ink:#F6EFE3;--panel:#2D1235;--soft:#2D1235;--rule:#F6EFE3;--hair:#4C2E55;--muted:#C9B6CC;color-scheme:dark}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 88px);background:var(--bg)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Instrument Sans','Helvetica Neue',Arial,sans-serif;overflow-x:hidden}
+[hidden]{display:none!important}
+.serif{font-family:'Fraunces',Georgia,'Times New Roman',serif}
+.wrap{max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,48px)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--coral);outline-offset:4px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--coral);color:#2A1030;padding:10px 16px;font-weight:600;z-index:200}
+.skip:focus{left:8px}
+.top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:4px 16px;padding-top:18px;padding-bottom:18px}
+.brand{display:inline-flex;align-items:center;gap:10px;min-height:44px;font-weight:700;font-size:22px;text-decoration:none}
+.nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 10px;text-decoration:none;font-weight:500}
+.nav a:hover{text-decoration:underline;text-decoration-color:var(--coral);text-decoration-thickness:3px;text-underline-offset:6px}
+.eyebrow{margin:0;font-size:14px;letter-spacing:.16em;text-transform:uppercase;font-weight:600}
+.lnk{display:inline-flex;align-items:center;min-height:44px;padding:0 4px;font-weight:600;text-decoration:none;background:linear-gradient(var(--coral),var(--coral)) 0 calc(100% - 8px)/0% 3px no-repeat;transition:background-size .35s ease}
+.lnk:hover,.lnk:focus-visible{background-size:100% 3px}
+.btn{display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:0 26px;background:var(--coral);color:#2A1030;font-weight:600;font-size:18px;text-decoration:none;border:2px solid #F6EFE3;transition:background .25s}
+.btn span{transition:transform .25s}
+.btn:hover{background:#F6EFE3}
+.btn:hover span{transform:translateX(6px)}
+.rise{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}.d1{animation-delay:.12s}.d2{animation-delay:.24s}
+@keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+.spin{animation:spin 40s linear infinite;transform-origin:50% 50%}
+@keyframes spin{to{transform:rotate(360deg)}}
+.stamp{position:absolute;right:clamp(0px,2vw,24px);top:clamp(-24px,-1vw,0px);width:clamp(96px,13vw,190px);height:auto;color:var(--ink)}
+h1,h2,h3{margin:0}
+.h1{font-weight:800;font-size:clamp(46px,11.4vw,184px);line-height:.9;letter-spacing:-.035em}
+.em{font-style:italic;font-weight:700;color:var(--coral)}
+.hero{position:relative;padding-top:clamp(40px,7vw,96px);padding-bottom:clamp(64px,10vw,140px)}
+.hero2{display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(20px,4vw,64px);margin-top:clamp(32px,5vw,72px);align-items:start}
+.intro{margin:0;font-size:clamp(20px,2vw,28px);line-height:1.4;max-width:30ch}
+.band{background:var(--panel);color:var(--panel-ink)}
+.fe{display:grid;grid-template-columns:5fr 7fr;gap:clamp(24px,5vw,80px);align-items:start}
+.bignum{display:block;font-style:italic;font-weight:700;font-size:clamp(96px,15vw,220px);line-height:.8;letter-spacing:-.05em;color:var(--coral)}
+.sw{position:relative;display:block;margin-top:clamp(0px,6vw,96px)}
+.sw .blk,.pic .blk{position:absolute;inset:0;background:var(--coral);transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+.sw:hover .blk,.sw:focus-visible .blk{transform:translate(10px,10px)}
+.sw img{position:relative;display:block;width:100%;height:auto;background:var(--panel);border:1px solid var(--hair)}
+.m2{margin-top:clamp(40px,6vw,88px);width:min(100%,260px)}.m2 .sw{margin-top:0}
+.row{display:grid;grid-template-columns:1fr 2fr;gap:clamp(20px,4vw,64px);padding:clamp(28px,4vw,48px) 0;border-top:2px solid var(--rule)}
+.meta{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;margin-top:clamp(32px,5vw,72px);padding-top:24px;border-top:2px solid var(--rule)}
+.meta i{display:block;font-size:18px}.meta b{display:block;margin-top:6px}
+.lead{margin:0 0 16px;font-size:18px;line-height:1.55}
+.big{font-size:clamp(18px,1.7vw,24px);line-height:1.5;margin:0}
+.sec{display:grid;grid-template-columns:5fr 7fr;gap:clamp(24px,5vw,80px);align-items:start;padding:clamp(48px,7vw,104px) 0}
+.sec.rev{grid-template-columns:7fr 5fr}.sec.rev .txt{order:2}.sec.wide{grid-template-columns:1fr}
+.txt{position:sticky;top:24px}.sec.wide .txt{position:static;max-width:760px}
+.num{display:block;font-style:italic;font-weight:700;font-size:clamp(64px,8vw,120px);line-height:.85;letter-spacing:-.05em;color:var(--coral)}
+.h3{margin:16px 0;font-weight:700;font-size:clamp(28px,3.4vw,50px);line-height:1;letter-spacing:-.02em}
+.shots{display:flex;flex-wrap:wrap;gap:clamp(24px,4vw,56px);align-items:flex-start}
+.shot{all:unset;box-sizing:border-box;cursor:zoom-in;display:flex;flex-direction:column;gap:14px}
+.shot:focus-visible{outline:3px solid var(--coral);outline-offset:6px}
+.pic{position:relative;display:block;margin-bottom:20px}
+.pic img{position:relative;display:block;width:100%;height:auto;background:var(--bg);border:1px solid var(--hair)}
+.shot .pic::after{content:"Enlarge \2922";position:absolute;right:8px;top:8px;z-index:2;background:var(--ink);color:var(--bg);font-size:12px;font-weight:600;letter-spacing:.04em;padding:5px 8px;opacity:0;transition:opacity .25s}
+.shot:hover .pic::after,.shot:focus-visible .pic::after{opacity:1}
+.shot:hover .blk,.shot:focus-visible .blk{transform:translate(10px,10px)}
+.shot.m{flex:1 1 330px;max-width:560px}.shot.m:nth-child(2){margin-left:auto}
+.shot.d{flex:1 1 100%;max-width:88%}.shot.d:nth-child(even){margin-left:auto}
+.cap{font-size:14px;font-weight:600;letter-spacing:.04em}
+.foot{background:var(--coral);color:var(--on-coral);margin-top:0}
+.foot .wrap{padding-top:clamp(56px,8vw,112px);padding-bottom:calc(40px + env(safe-area-inset-bottom,0px))}
+.foot a{font-weight:600;font-size:20px;text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:2px;display:inline-flex;align-items:center;min-height:44px}
+.foot .mail a.addr{text-decoration:none;font-weight:500;font-size:clamp(24px,3.4vw,44px)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.foot a:hover{text-decoration-thickness:4px}
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(27,10,33,.97);color:#F6EFE3;overflow:auto;padding:84px 16px 32px}
+.lb-bar{position:fixed;left:0;right:0;top:0;z-index:2;display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;justify-content:space-between;padding:calc(10px + env(safe-area-inset-top,0px)) 16px 10px;background:#1B0A21;border-bottom:1px solid rgba(246,239,227,.25)}
+.lb-bar button{min-height:44px;min-width:44px;padding:0 16px;border:2px solid #F6EFE3;background:transparent;color:#F6EFE3;font:600 16px 'Instrument Sans',Arial,sans-serif;cursor:pointer}
+.lb-bar button:hover{background:#F6EFE3;color:#2A1030}
+.lb img{display:block;margin:0 auto;max-width:100%;height:auto;cursor:zoom-in}
+.lb.full img{max-width:none;cursor:zoom-out}
+@media (max-width:860px){.fe,.hero2,.row,.sec,.sec.rev{grid-template-columns:1fr}.sec.rev .txt{order:0}.txt{position:static}.sw{margin-top:0}.m2{max-width:240px}.meta{grid-template-columns:repeat(2,minmax(0,1fr))}.shot.d{max-width:100%}}
+@media (max-width:520px){.lb{padding-top:140px}.stamp{width:76px;top:4px}.hero{padding-top:96px}}
+@media (prefers-reduced-motion:reduce){.rise,.spin{animation:none}.btn,.btn span,.lnk,.sw .blk,.pic .blk,.vid .blk{transition:none}}
+
+.btn.dark{border-color:var(--ink);color:#2A1030}
+.btn.dark:hover{background:var(--ink);color:var(--bg)}
+.fe2{display:grid;grid-template-columns:6fr 5fr;gap:clamp(24px,6vw,96px);align-items:start}
+.fe2 .sw{margin-top:0;max-width:520px}.fe2 .sw img{background:var(--bg)}
+.fe2 .m3{margin:clamp(48px,7vw,104px) 0 0 auto;width:min(100%,250px)}.fe2 .m3 .sw{max-width:none}
+.shot.w{flex:1 1 440px;max-width:760px}
+.shot.s{flex:0 1 320px;max-width:320px}
+.shots.pair{align-items:flex-start}.shots.pair .shot.s{margin-top:clamp(0px,8vw,128px)}
+.vid{position:relative;display:block;max-width:1000px}
+.vid .blk{position:absolute;inset:0;background:var(--coral);transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+.vid:hover .blk{transform:translate(10px,10px)}
+.vid video{position:relative;display:block;width:100%;height:auto;background:#000;border:1px solid var(--hair)}
+.next{border-top:2px solid var(--rule);padding:clamp(40px,6vw,88px) 0}
+.next a{display:block;text-decoration:none}
+.next .nx{display:block;font-weight:800;font-size:clamp(36px,7vw,112px);line-height:.95;letter-spacing:-.04em;margin-top:16px;transition:color .25s}
+.next a:hover .nx,.next a:focus-visible .nx{color:var(--coral)}
+.note{font-size:14px;letter-spacing:.04em;margin:16px 0 0}
+@media (max-width:860px){.fe2{grid-template-columns:1fr}.shot.s{flex:1 1 220px}.fe2 .m3{margin-left:0}}
+@media (prefers-reduced-motion:reduce){.next .nx{transition:none}}
+
+.tag{display:inline-block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:4px 10px;border:2px solid var(--ink)}
+.tag.obs{background:var(--ink);color:var(--bg)}.tag.prop{border-style:dashed}
+.ul{margin:0;padding-left:1.15em;display:grid;gap:14px;font-size:clamp(17px,1.5vw,21px);line-height:1.5}
+.ul li::marker{color:var(--coral)}
+.notice{border:2px solid var(--ink);padding:16px 20px;font-size:clamp(16px,1.4vw,19px);line-height:1.5;font-weight:500;max-width:62ch}
+
+.tp-note{display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap;margin:8px 0 8px}.tp-note p{margin:0;max-width:60ch;font-size:16px;line-height:1.5}
+.tpg{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:clamp(36px,5vw,64px) clamp(24px,3vw,40px);align-items:start;margin:24px 0 40px}
+.tpi{margin:0;display:flex;flex-direction:column;gap:12px;min-width:0}.tpi .shot{max-width:340px}
+.tph{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.tpn{font-weight:800;font-style:italic;font-size:34px;line-height:1;color:var(--coral)}
+.tag.ctx{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.cd{margin:0;font-size:15px;line-height:1.5;max-width:42ch}.cd.rel{font-size:14px;opacity:.85;border-left:3px solid var(--coral);padding-left:10px}.cd.mine{font-size:14px;font-weight:600}
+.hp3{margin-bottom:24px}.hp3 .shot{max-width:280px}
+@media (max-width:860px){.tpg{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}.tpi .shot{max-width:none}}
+.todo{border:2px dashed var(--ink);padding:18px 20px;background:var(--soft);font-size:17px;line-height:1.5}
+.fe3{display:grid;grid-template-columns:7fr 5fr;gap:clamp(24px,6vw,96px);align-items:center}
+.stat{display:block;text-decoration:none;background:var(--panel);color:var(--panel-ink);padding:clamp(28px,4vw,56px);position:relative;transition:transform .35s ease}
+.stat:hover{transform:translate(-6px,-6px)}
+.stat .n{display:block;font-weight:800;font-style:italic;font-size:clamp(96px,15vw,220px);line-height:.85;letter-spacing:-.05em;color:var(--coral)}
+.central{display:grid;grid-template-columns:5fr 7fr;gap:clamp(24px,5vw,80px);align-items:center}
+.central .cn{font-weight:800;font-style:italic;font-size:clamp(120px,22vw,340px);line-height:.8;letter-spacing:-.05em;color:var(--coral)}
+.central .cn span{font-size:.5em}
+.q{margin:0;padding:0;font-size:clamp(22px,2.6vw,36px);line-height:1.25;font-weight:500}
+.q::before{content:"\201C";display:block;color:var(--coral);font-style:italic;font-weight:800;font-size:2.2em;line-height:.6;margin-bottom:.2em}
+.q cite{display:block;margin-top:14px;font:600 14px/1.4 'Instrument Sans',Arial,sans-serif;letter-spacing:.06em;font-style:normal}
+.quotes{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,72px)}
+.persona{border:2px solid var(--ink);display:grid;grid-template-columns:1fr 1fr}
+.persona>div{padding:clamp(20px,3vw,40px)}
+.persona .pl{border-right:2px solid var(--ink)}
+.persona h4,.cj h4{margin:0 0 10px;font:600 13px/1.3 'Instrument Sans',Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+.persona p,.persona ul{margin:0 0 22px;font-size:17px;line-height:1.5}.persona ul{padding-left:1.1em;display:grid;gap:6px}
+.persona .need{grid-column:1/-1;background:var(--panel);color:var(--panel-ink);border-top:2px solid var(--ink)}
+.persona .need p{margin:0;font-size:clamp(22px,2.6vw,36px);line-height:1.2;font-style:italic;font-weight:600}
+.persona .need small{display:block;margin-top:12px;font-size:13px;letter-spacing:.04em}
+.cjm{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;border-top:2px solid var(--ink)}
+.cj{padding:20px 18px 24px 0;position:relative}
+.cj+.cj{padding-left:18px}
+.cj .st{display:flex;align-items:center;gap:10px;margin-bottom:18px}
+.cj .st i{font-family:'Fraunces',Georgia,serif;font-weight:800;font-style:italic;font-size:44px;line-height:1;color:var(--coral)}
+.cj .st b{font:700 22px/1.1 'Fraunces',Georgia,serif;letter-spacing:-.01em}
+.cj h4{margin-top:16px}.cj p{margin:0;font-size:15px;line-height:1.45}
+.cj .op{margin-top:16px;padding-top:12px;border-top:2px dashed var(--ink)}
+.recs{display:grid;gap:0;border-top:2px solid var(--ink)}
+.rec{display:grid;grid-template-columns:110px 1fr 1.3fr;gap:clamp(16px,3vw,40px);padding:20px 0;border-bottom:1px solid var(--ink);font-size:17px;line-height:1.5}
+.rec.hd{font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;padding:12px 0}
+.rec .pri{font-family:'Fraunces',Georgia,serif;font-weight:800;font-size:22px;font-style:italic}
+.rec .pri.h{color:var(--coral)}
+@media (max-width:1100px){.cjm{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 0}.cj:nth-child(odd){padding-left:0}.cj:nth-child(even){padding-left:18px}.cj{border-bottom:2px solid var(--ink)}}
+@media (max-width:860px){.fe3,.central,.quotes,.persona{grid-template-columns:1fr}.persona .pl{border-right:0;border-bottom:2px solid var(--ink)}.rec{grid-template-columns:1fr;gap:6px}.rec.hd{display:none}.rec .pri::after{content:" priority";font:600 13px 'Instrument Sans',Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;font-style:normal}}
+@media (max-width:640px){.cjm{grid-template-columns:1fr}.cj,.cj:nth-child(even){padding-left:0}}
+@media (prefers-reduced-motion:reduce){.stat{transition:none}}
+
+/* ===== 9. shared classes (replace repeated inline styles) ===== */
+.stack{display:grid;gap:16px}
+.rh{font-weight:700;font-style:italic;font-size:clamp(30px,3.6vw,52px);line-height:1}
+.band-pad{padding:clamp(48px,7vw,96px) 0}
+.bh{font-weight:800;font-size:clamp(40px,7.4vw,120px);line-height:.92;letter-spacing:-.035em}
+.bh.mt{margin-top:20px}
+.band-lead{margin:24px 0 0;font-size:clamp(18px,1.8vw,26px);line-height:1.45;max-width:40ch}
+.case-head{padding-top:clamp(24px,4vw,48px);padding-bottom:clamp(56px,8vw,112px)}
+.case-head.tight{padding-bottom:clamp(40px,6vw,72px)}
+.case-eyebrow{margin:clamp(20px,3vw,40px) 0}
+.h1-case{font-size:clamp(52px,13vw,208px);line-height:.88;letter-spacing:-.04em}
+.pb-sec{padding-bottom:clamp(56px,8vw,112px)}
+.mt-row{margin-top:clamp(40px,6vw,72px)}
+.tag.on-panel{border-color:var(--panel-ink)}
+
+/* ===== 1. smart sticky header ===== */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:61;background:var(--bg)}
+.site-head{position:sticky;top:env(safe-area-inset-top,0px);z-index:60;background:var(--bg);border-bottom:1px solid transparent;transition:transform .4s cubic-bezier(.2,.7,.2,1),border-color .25s}
+.site-head.stuck{border-bottom-color:var(--hair)}
+.site-head.hide{transform:translateY(calc(-100% - env(safe-area-inset-top,0px)))}
+.top{flex-wrap:nowrap;padding-top:12px;padding-bottom:12px}
+.brand{white-space:nowrap}
+.head-r{display:flex;align-items:center;gap:18px}
+.nav{display:flex;align-items:center}
+.nav a{position:relative}
+.nav a:hover{text-decoration:none}
+.nav a:not(.cta)::after{content:"";position:absolute;left:10px;right:10px;bottom:8px;height:3px;background:var(--coral);transform:scaleX(0);transform-origin:left;transition:transform .3s cubic-bezier(.2,.7,.2,1)}
+.nav a:not(.cta):hover::after,.nav a.on::after{transform:scaleX(1)}
+.nav .cta{margin-left:10px;padding:0 16px;border:2px solid var(--ink);font-weight:600;transition:background .2s,color .2s}
+.nav .cta:hover{background:var(--ink);color:var(--bg)}
+.avail{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;white-space:nowrap}
+.avail i{width:8px;height:8px;border-radius:50%;background:#2FB36B;animation:ping 2.2s infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(47,179,107,.55)}70%,100%{box-shadow:0 0 0 8px rgba(47,179,107,0)}}
+.progress{position:fixed;left:0;right:0;top:env(safe-area-inset-top,0px);height:3px;z-index:62;pointer-events:none}
+.progress i{display:block;height:100%;width:0;background:var(--coral)}
+@media (max-width:1000px){.avail{display:none}}
+@media (max-width:640px){.nav .cta{display:none}.brand{font-size:19px;gap:8px}.nav a{padding:0 8px}}
+@media (max-width:400px){.brand{font-size:17px}.nav a{padding:0 6px;font-size:15px}}
+
+/* ===== 2. hero + skills ticker ===== */
+.hero-eyebrow{margin-bottom:clamp(20px,3vw,40px)}
+.hero-title .line{display:block;overflow:hidden;padding-bottom:.08em;margin-bottom:-.08em}
+.hero-title .line>span{display:inline-block}
+.hero-title .line>span{animation:lineUp 1s cubic-bezier(.2,.7,.2,1) both}
+.hero-title .line:nth-child(2)>span{animation-delay:.12s}
+@keyframes lineUp{from{transform:translateY(105%)}to{transform:none}}
+.hero-tag{padding-top:10px}
+.hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px;margin-top:24px}
+.hero{padding-bottom:clamp(56px,8vw,112px)}
+.ticker{background:var(--panel);color:var(--panel-ink);overflow:hidden;border-bottom:1px solid rgba(246,239,227,.18)}
+.ticker-track{display:flex;width:max-content;animation:tick 40s linear infinite}
+.ticker:hover .ticker-track{animation-play-state:paused}
+.ticker ul{display:flex;margin:0;padding:0;list-style:none}
+.ticker li{display:flex;align-items:center;gap:26px;padding:18px 13px;white-space:nowrap;font-family:'Fraunces',Georgia,serif;font-size:clamp(20px,2.2vw,30px);font-style:italic;font-weight:500}
+.ticker li::after{content:"\2731";color:var(--coral);font-style:normal;font-size:.75em}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+/* ===== 3. project index ===== */
+.work{padding:clamp(48px,7vw,96px) 0 clamp(72px,10vw,140px)}
+.work-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:clamp(24px,4vw,40px)}
+.work-head h2{font-weight:500;font-style:italic;font-size:clamp(28px,3.6vw,48px)}
+.idx-wrap{position:relative;margin-bottom:clamp(64px,9vw,128px)}
+.idx{list-style:none;margin:0;padding:0}
+.idx li{border-top:1px solid rgba(246,239,227,.28)}
+.idx li:last-child{border-bottom:1px solid rgba(246,239,227,.28)}
+.idx a{display:grid;grid-template-columns:72px minmax(0,1fr) minmax(0,.7fr) 64px 32px;gap:16px;align-items:center;padding:clamp(18px,2.4vw,28px) 0;text-decoration:none}
+.idx .i{font-style:italic;font-weight:700;font-size:clamp(24px,2.4vw,32px);color:var(--coral)}
+.idx .t{font-weight:700;font-size:clamp(24px,3.4vw,48px);line-height:1;letter-spacing:-.02em;transition:transform .4s cubic-bezier(.2,.7,.2,1)}
+.idx .k{font-size:15px;opacity:.82}
+.idx .y{font-size:15px;font-variant-numeric:tabular-nums}
+.idx .ar{font-size:24px;transition:transform .3s,color .3s}
+.idx a:hover .t,.idx a:focus-visible .t{transform:translateX(12px)}
+.idx a:hover .ar,.idx a:focus-visible .ar{transform:translate(4px,-4px);color:var(--coral)}
+.idx-prev{position:absolute;left:0;top:0;width:220px;height:280px;overflow:hidden;pointer-events:none;opacity:0;transform:scale(.9) rotate(-3deg);transition:opacity .25s,transform .4s cubic-bezier(.2,.7,.2,1);border:2px solid var(--panel-ink);background:var(--panel);z-index:3}
+.idx-prev.on{opacity:1;transform:scale(1) rotate(-3deg)}
+.idx-prev img{display:block;width:100%;height:auto;animation:panloop 10s ease-in-out infinite alternate}
+@keyframes panloop{0%,12%{transform:translateY(0)}88%,100%{transform:translateY(calc(-100% + 276px))}}
+@media (max-width:860px){.idx a{grid-template-columns:44px minmax(0,1fr) 24px}.idx .k,.idx .y{display:none}}
+@media (hover:none),(max-width:860px){.idx-prev{display:none}}
+
+/* ===== 4. compact project previews ===== */
+.proj{display:grid;grid-template-columns:4fr 7fr;gap:clamp(28px,5vw,80px);align-items:center}
+.proj.rev{grid-template-columns:7fr 4fr}
+.proj.rev .stage{order:-1}
+.ptitle{margin:24px 0 16px;font-weight:800;font-size:clamp(40px,5.6vw,84px);line-height:.95;letter-spacing:-.03em}
+.pdesc{margin:0 0 12px;font-size:20px;line-height:1.5;max-width:30ch}
+.pmeta{margin-bottom:28px;font-size:13px;letter-spacing:.14em}
+.pnote{margin:0 0 28px;font-size:15px;line-height:1.5;max-width:44ch;font-weight:500}
+.work-2{padding:clamp(64px,10vw,140px) 0}
+.work-3{background:var(--soft);padding:clamp(64px,10vw,140px) 0}
+.stage{position:relative;padding-bottom:56px;min-width:0}
+.proj:not(.rev) .stage{padding-left:40px}
+.proj.rev .stage{padding-right:40px}
+.bframe{position:relative;border:1.5px solid currentColor;cursor:pointer}
+.bframe-bar{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:0 14px;height:34px;border-bottom:1.5px solid currentColor;font-size:13px;letter-spacing:.04em}
+.bframe-bar b{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bframe-bar span{opacity:.75;white-space:nowrap}
+.win{position:relative;overflow:hidden;aspect-ratio:16/10.5;max-width:100%}
+.win img{display:block;width:100%;height:auto;will-change:transform;transition:transform 1.2s cubic-bezier(.45,0,.2,1)}
+.pframe{position:absolute;left:0;bottom:0;width:clamp(120px,24%,180px);border:2px solid currentColor;border-radius:16px;padding:6px;background:var(--bg);cursor:pointer;box-shadow:0 22px 44px -22px rgba(27,10,33,.55)}
+.band .pframe{background:var(--panel)}
+.proj.rev .pframe{left:auto;right:0}
+.pframe .win{aspect-ratio:9/19;border-radius:10px}
+.pframe.solo{position:relative;left:auto;bottom:auto;width:min(100%,260px);box-shadow:none}
+.hint{position:absolute;right:12px;bottom:12px;background:var(--coral);color:#2A1030;font-size:12px;font-weight:600;letter-spacing:.04em;padding:6px 10px;pointer-events:none;transition:opacity .3s}
+.hint .t-touch{display:none}
+@media (hover:none){.hint .t-mouse{display:none}.hint .t-touch{display:inline}}
+.bframe.moving .hint{opacity:0}
+.bframe:focus-visible,.pframe:focus-visible{outline:3px solid var(--coral);outline-offset:4px}
+.stage3{display:flex;gap:clamp(20px,3vw,40px);align-items:flex-end}
+.stage3 .pframe.solo{flex:0 0 auto;width:min(44%,240px)}
+.stage3 .stat{flex:1 1 auto}
+.js-reveal .reveal{opacity:0;transform:translateY(28px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}
+.js-reveal .reveal.in{opacity:1;transform:none}
+@media (max-width:860px){
+  .proj,.proj.rev{grid-template-columns:1fr}
+  .proj.rev .stage{order:0}
+  .proj:not(.rev) .stage,.proj.rev .stage{padding-left:0;padding-right:28px}
+  .pframe,.proj.rev .pframe{left:auto;right:0;width:clamp(96px,28%,150px);padding:4px;border-radius:12px}
+  .hint{display:none}
+  .stage3{flex-direction:column;align-items:stretch}.stage3 .pframe.solo{width:min(70%,240px)}
+}
+
+/* ===== 6. case-study contents + progress ===== */
+.cover{margin-top:clamp(32px,5vw,64px);position:relative}
+.cover .stage{padding-bottom:40px}
+.cover-row{display:flex;flex-wrap:wrap;gap:clamp(16px,3vw,40px);align-items:flex-start}
+.cover-row .pframe.solo{width:clamp(150px,22vw,240px)}
+.rail{display:none}
+@media (min-width:1100px){
+  .case-view .wrap{padding-left:calc(clamp(20px,4vw,48px) + 210px)}
+  .rail{display:block;position:fixed;z-index:20;top:calc(env(safe-area-inset-top,0px) + 108px);left:max(clamp(20px,4vw,48px),calc((100vw - 1280px) / 2 + clamp(20px,4vw,48px)));width:180px;max-height:calc(100vh - 140px);overflow:auto;transition:opacity .3s}
+  .rail.off{opacity:0;pointer-events:none}
+  .rail ol{list-style:none;margin:12px 0 0;padding:0;border-left:2px solid var(--hair)}
+  .rail a{display:block;padding:6px 0 6px 14px;margin-left:-2px;border-left:2px solid transparent;text-decoration:none;font-size:14px;line-height:1.3;font-weight:500;color:var(--muted);transition:color .2s,border-color .2s}
+  .rail a:hover{color:var(--ink)}
+  .rail a.on{color:var(--ink);border-left-color:var(--coral);font-weight:600}
+}
+
+/* ===== 7. about ===== */
+.about{padding-top:clamp(64px,10vw,140px);padding-bottom:clamp(72px,10vw,150px)}
+[tabindex="-1"]:focus{outline:none}
+.pframe .win{background:var(--soft)}
+.about-h{font-size:clamp(44px,10.4vw,168px);letter-spacing:-.04em;margin-top:24px}
+.about-grid{display:grid;grid-template-columns:5fr 6fr;gap:clamp(28px,6vw,96px);margin-top:clamp(32px,5vw,64px);align-items:start}
+.about-grid>div{min-width:0}
+.about-bio{margin:0 0 24px;font-size:clamp(20px,2vw,28px);line-height:1.4;max-width:30ch}
+.about h3{margin:0 0 12px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 32px;padding:0;list-style:none}
+.chips li{border:1.5px solid var(--ink);padding:6px 12px;font-size:15px;font-weight:500}
+.bg-list{list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}
+.bg-list li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;padding:14px 0;border-bottom:1px solid var(--hair);font-size:16px}
+.bg-list li span:last-child{font-variant-numeric:tabular-nums;color:var(--muted)}
+@media (max-width:860px){.about-grid{grid-template-columns:1fr}}
+
+/* ===== 8. footer ===== */
+.foot h2{font-weight:800;font-size:clamp(44px,10vw,160px);line-height:.9;letter-spacing:-.04em}
+.mail{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;margin-top:36px}
+.mail .addr{font-family:'Fraunces',Georgia,serif;font-style:italic;font-weight:500;font-size:clamp(24px,3.4vw,44px);overflow-wrap:anywhere;user-select:all}
+.copy{display:inline-flex;align-items:center;gap:8px;min-height:46px;padding:0 18px;border:0;background:#2A1030;color:#F6EFE3;font:600 16px 'Instrument Sans',Arial,sans-serif;cursor:pointer;transition:transform .2s}
+.copy:hover{transform:translateY(-2px)}
+.copy:focus-visible{outline:3px solid #2A1030;outline-offset:3px}
+.foot .bottom{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px 32px;margin-top:clamp(40px,6vw,72px);padding-top:16px;border-top:2px solid #2A1030}
+.foot .bottom p{margin:0;font-size:15px;font-weight:500}
+.foot .bottom nav{display:flex;flex-wrap:wrap;gap:0 32px}
+.foot .bottom a{font-size:17px;text-decoration:none}
+.foot .bottom a:hover{text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:2px}
+
+@media (prefers-reduced-motion:reduce){
+  .avail i,.ticker-track,.idx-prev img,.hero-title .line>span{animation:none}
+  .ticker-track{flex-wrap:wrap;width:auto}.ticker ul[aria-hidden]{display:none}.ticker ul{flex-wrap:wrap}
+  .site-head,.win img,.idx .t,.nav a::after,.copy{transition:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head" id="site-head"><div class="wrap top">
+<a class="brand serif" href="#home" data-go="home"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#FF5A45"/></svg>Madlen Sargsyan</a>
+<div class="head-r">
+<span class="avail"><i aria-hidden="true"></i>Open to UI/UX roles</span>
+<nav class="nav" aria-label="Main">
+<a href="#work" data-go="work" data-sec="work">Work</a>
+<a href="#about" data-go="about" data-sec="about">About</a>
+<a href="#contact" data-go="contact" data-sec="contact">Contact</a>
+<a class="cta" href="#contact" data-go="contact">Let’s talk <span aria-hidden="true">→</span></a>
+</nav>
+</div>
+</div></header>
+<div class="progress" id="progress" aria-hidden="true" hidden><i></i></div>
+
+<main id="main">
+<div id="view-home">
+<section class="wrap hero">
+<svg class="stamp" viewBox="0 0 200 200" role="img" aria-label="UI/UX design">
+<g class="spin"><defs><path id="ring" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+<text font-family="Instrument Sans, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="3.2" fill="currentColor"><textPath href="#ring" textLength="486" lengthAdjust="spacing">UI/UX DESIGN · UI/UX DESIGN · </textPath></text></g>
+<g stroke="#FF5A45" stroke-width="10" stroke-linecap="round"><path d="M100 72v56M72 100h56M80 80l40 40M120 80l-40 40"/></g>
+</svg>
+<p class="eyebrow rise hero-eyebrow">Portfolio of Madlen Sargsyan</p>
+<h1 class="serif h1 hero-title" id="home-title" tabindex="-1"><span class="line"><span>Thoughtful interfaces.</span></span> <span class="line"><span>A bold <em class="em">visual eye.</em></span></span></h1>
+<div class="hero2 rise d2">
+<p class="eyebrow hero-tag">UI/UX · Graphic design</p>
+<div>
+<p class="intro">I’m a UI/UX designer with a graphic design background and experience in iGaming. I care about interfaces that are clear to use and memorable to look at, whatever the industry.</p>
+<div class="hero-actions"><a class="btn dark" href="#work" data-go="work">See the work <span aria-hidden="true">↓</span></a><a class="lnk" href="https://www.behance.net/madlensargsyan" target="_blank" rel="noopener noreferrer">Behance ↗</a></div>
+</div>
+</div>
+</section>
+
+<div class="ticker" role="region" aria-label="Skills"><div class="ticker-track"><ul><li>Wireframes</li><li>Desktop &amp; mobile UI</li><li>Prototyping</li><li>Developer handoff</li><li>Discovery interviews</li><li>Usability testing</li><li>Personas &amp; journey maps</li><li>Figma</li><li>Graphic design</li></ul><ul aria-hidden="true"><li>Wireframes</li><li>Desktop &amp; mobile UI</li><li>Prototyping</li><li>Developer handoff</li><li>Discovery interviews</li><li>Usability testing</li><li>Personas &amp; journey maps</li><li>Figma</li><li>Graphic design</li></ul></div></div>
+
+<section id="work" class="band work">
+<div class="wrap">
+<div class="work-head"><h2 class="serif">Selected work</h2><span>(03)</span></div>
+<div class="idx-wrap" id="idx">
+<ul class="idx" aria-label="Project index">
+<li><a href="#case-study" data-go="case-study" data-img="img/th-tom-horn-gaming-desktop-homepage-design.webp"><span class="i serif">01</span><span class="t serif">Tom Horn Gaming</span><span class="k">iGaming · Website redesign</span><span class="y">2024</span><span class="ar" aria-hidden="true">↗</span></a></li>
+<li><a href="#schole" data-go="schole" data-img="img/sc-home-desktop.webp"><span class="i serif">02</span><span class="t serif">Schole Centre website</span><span class="k">Education · New website</span><span class="y">2024</span><span class="ar" aria-hidden="true">↗</span></a></li>
+<li><a href="#travel" data-go="travel" data-img="img/tp-summary.webp"><span class="i serif">03</span><span class="t serif">Yandex Travel — Travel Summary</span><span class="k">UX research · Prototyping</span><span class="y">2026</span><span class="ar" aria-hidden="true">↗</span></a></li>
+</ul>
+<div class="idx-prev" aria-hidden="true"><img alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></div>
+</div>
+
+<div class="proj reveal">
+<div>
+<span class="serif bignum">01</span>
+<h3 class="serif ptitle">Tom Horn Gaming</h3>
+<p class="pdesc">Website redesign aligned with a new brandbook and logo, on desktop and mobile.</p>
+<p class="eyebrow pmeta">iGaming · Website redesign · 2024</p>
+<a class="btn" href="#case-study" data-go="case-study">Read the case study <span aria-hidden="true">→</span></a>
+</div>
+<div class="stage">
+<div class="bframe" data-pan data-go="case-study" tabindex="0" aria-label="Tom Horn Gaming desktop homepage design. Hover to scroll through the page; click to open the case study."><div class="bframe-bar"><b>Tom Horn Gaming · Homepage</b><span>Desktop</span></div><div class="win"><img src="img/th-tom-horn-gaming-desktop-homepage-design.webp" alt="Tom Horn Gaming desktop homepage design" width="2351" height="3918" loading="lazy" decoding="async"></div><span class="hint" aria-hidden="true"><span class="t-mouse">↕ Hover to scroll the page</span><span class="t-touch">↕ Tap to scroll the page</span></span></div>
+<div class="pframe" data-pan data-go="case-study" tabindex="0" aria-label="Tom Horn Gaming mobile About screen. Hover to scroll through the screen; click to open the case study."><div class="win"><img src="img/th-tom-horn-gaming-mobile-about-screen.webp" alt="Tom Horn Gaming mobile About screen" width="590" height="2228" loading="lazy" decoding="async"></div></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="work-2" class="work-2">
+<div class="wrap proj rev reveal">
+<div class="stage">
+<div class="bframe" data-pan data-go="schole" tabindex="0" aria-label="Schole Centre desktop homepage design. Hover to scroll through the page; click to open the case study."><div class="bframe-bar"><b>Schole Centre · Homepage</b><span>Desktop</span></div><div class="win"><img src="img/sc-home-desktop.webp" alt="Schole Centre desktop homepage design" width="2163" height="7973" loading="lazy" decoding="async"></div><span class="hint" aria-hidden="true"><span class="t-mouse">↕ Hover to scroll the page</span><span class="t-touch">↕ Tap to scroll the page</span></span></div>
+<div class="pframe" data-pan data-go="schole" tabindex="0" aria-label="Schole Centre mobile homepage design. Hover to scroll through the screen; click to open the case study."><div class="win"><img src="img/sc-home-mobile.webp" alt="Schole Centre mobile homepage design" width="750" height="2982" loading="lazy" decoding="async"></div></div>
+</div>
+<div>
+<span class="serif bignum">02</span>
+<h3 class="serif ptitle">Schole Centre website</h3>
+<p class="pdesc">A new website for an educational centre offering classes and courses, on desktop and mobile.</p>
+<p class="eyebrow pmeta">Education · New website · 2024</p>
+<a class="btn dark" href="#schole" data-go="schole">Read the case study <span aria-hidden="true">→</span></a>
+</div>
+</div>
+</section>
+
+<section id="work-3" class="work-3">
+<div class="wrap proj reveal">
+<div>
+<span class="serif bignum">03</span>
+<h3 class="serif ptitle">Yandex Travel — Travel Summary</h3>
+<p class="eyebrow pmeta" style="margin-bottom:20px">Discovery Research · Prototyping · Usability Testing · 2026</p>
+<p class="pdesc" style="max-width:32ch;margin-bottom:16px">Interviews and usability tests on a trip-recap concept, and the prototype I designed to test it.</p>
+<p class="pnote">Educational project for Yandex Practicum; not commissioned by Yandex and not launched.</p>
+<a class="btn dark" href="#travel" data-go="travel">Read the case study <span aria-hidden="true">→</span></a>
+</div>
+<div class="stage3">
+<div class="pframe solo" data-pan data-go="travel" tabindex="0" aria-label="Travel Summary screen from the prototype, with Russian interface text. Hover to scroll through the screen; click to open the case study."><div class="win"><img src="img/tp-summary.webp" alt="Travel Summary screen from the prototype, with Russian interface text" width="585" height="1427" loading="lazy" decoding="async"></div></div>
+<a class="stat" href="#travel" data-go="travel" aria-label="Open the Travel Summary case study: central finding">
+<span class="n serif">3/4</span>
+<span style="display:block;margin-top:20px;font-size:clamp(18px,1.8vw,24px);line-height:1.35">usability sessions where hidden data still appeared in the preview</span>
+<span class="eyebrow" style="display:block;margin-top:20px;font-size:12px;letter-spacing:.14em">Central finding · 4 sessions</span>
+</a>
+</div>
+</div>
+</section>
+
+<section id="about" class="wrap about">
+<p class="eyebrow">About</p>
+<h2 class="serif h1 about-h">Interface <em class="em">&amp;</em> image.</h2>
+<div class="about-grid">
+<div>
+<p class="about-bio">UI/UX design shaped by a graphic design background, with experience in iGaming.</p>
+<a class="btn dark" href="#contact" data-go="contact">Let’s talk <span aria-hidden="true">→</span></a>
+<!-- Optional portrait: add a photo here, for example
+<img class="portrait" src="img/portrait.webp" alt="Madlen Sargsyan" width="800" height="1000" loading="lazy">
+-->
+</div>
+<div>
+<h3>What I do</h3>
+<ul class="chips"><li>Wireframes</li><li>Desktop &amp; mobile UI</li><li>Prototypes</li><li>Developer handoff</li><li>Discovery interviews</li><li>Usability testing</li><li>Personas &amp; journey maps</li></ul>
+<h3>Tools</h3>
+<ul class="chips"><li>Figma</li><li>Adobe Illustrator</li><li>Adobe Photoshop</li><li>FigJam</li><li>Miro</li><li>Notion</li></ul>
+<h3>Background</h3>
+<ul class="bg-list">
+<li><span>UX research and prototyping · Yandex Practicum</span><span>2026</span></li>
+<li><span>UI/UX design at a design agency · iGaming and education websites</span><span>2024</span></li>
+<li><span>Graphic design</span><span></span></li>
+</ul>
+<!-- Experience timeline: replace the Background rows with your roles, companies and years when ready. -->
+</div>
+</div>
+</section>
+</div>
+
+<div id="view-case" class="case-view" hidden>
+<nav class="rail" aria-label="Case study contents"><p class="eyebrow">Contents</p><ol></ol></nav>
+<section class="wrap case-head">
+<a class="lnk" href="#home" data-go="home">← Back to home</a>
+<p class="eyebrow rise case-eyebrow">Case study · iGaming</p>
+<h1 id="case-title" tabindex="-1" class="serif h1 rise h1-case">Tom Horn <em class="em">Gaming</em></h1>
+<div class="meta">
+<div><i class="serif">Project</i><b>Website redesign</b></div>
+<div><i class="serif">Platforms</i><b>Desktop and mobile</b></div>
+<div><i class="serif">Role</i><b>UI/UX designer</b></div>
+<div><i class="serif">Timeline</i><b>2024, about one month</b></div>
+</div>
+<div class="cover"><div class="stage" style="padding:0"><div class="bframe" data-pan tabindex="0" aria-label="Concept A: slot-reel hero, desktop homepage. Hover to scroll through the page."><div class="bframe-bar"><b>Concept A · Desktop homepage</b><span>Hover to scroll</span></div><div class="win"><img src="img/th-tom-horn-gaming-desktop-homepage-design.webp" alt="Concept A: slot-reel hero, desktop homepage" width="2351" height="3918" loading="lazy" decoding="async"></div><span class="hint" aria-hidden="true"><span class="t-mouse">↕ Hover to scroll the page</span><span class="t-touch">↕ Tap to scroll the page</span></span></div></div></div>
+</section>
+
+<div class="wrap pb-sec">
+<div class="row"><h2 class="serif rh">Overview</h2>
+<div class="stack"><p class="big">I worked on the Tom Horn Gaming website redesign at the agency where I was employed. The goal was to modernize the website and align it with the new brandbook and logo we created.</p>
+<p class="big">The screens below cover the games catalogue, company story, content partners, regulated markets and a blog, for desktop and mobile.</p></div></div>
+<div class="row"><h2 class="serif rh">My role</h2>
+<div class="stack"><p class="big">I was the UI/UX designer, responsible for wireframes, desktop and mobile UI design, prototypes and developer handoff.</p>
+<p class="big">I worked in Figma, together with an art director, a project manager and a developer.</p></div></div>
+<div class="row"><h2 class="serif rh">The challenge</h2>
+<p class="big">To modernize the Tom Horn Gaming website and bring it in line with the new brandbook and logo.</p></div>
+</div>
+
+<div class="band band-pad">
+<div class="wrap">
+<h2 class="serif bh">Design decisions <em class="em">&amp;</em> final screens</h2>
+<p class="band-lead">The aim throughout was to translate the new brand identity into a consistent website experience.</p>
+<p class="note">Select any screen to enlarge it.</p>
+</div>
+</div>
+<div class="wrap" id="screens">
+<section class="sec wide"><div class="txt"><span class="num serif">01</span><h3 class="serif h3">Desktop homepage: alternative concepts</h3><p class="lead">Three alternative hero concepts for the desktop homepage share one structure: header navigation with a “Games showcase” button, a hero, a “Latest games released” grid, an “Explore games” call-to-action, an FAQ and a footer. They differ in the hero: a 3D slot reel, a bear character and a “Cyber Casino” illustration.</p></div><div class="shots"><button type="button" class="shot d" data-cap="Concept A: slot-reel hero" aria-label="Enlarge: Concept A: slot-reel hero"><span class="pic"><span class="blk"></span><img src="img/th-tom-horn-gaming-desktop-homepage-design.webp" alt="Concept A: slot-reel hero" width="2351" height="3918" loading="lazy" decoding="async"></span><span class="cap">Concept A: slot-reel hero</span></button><button type="button" class="shot d" data-cap="Concept B: bear hero" aria-label="Enlarge: Concept B: bear hero"><span class="pic"><span class="blk"></span><img src="img/th-concept-b-bear-hero.webp" alt="Concept B: bear hero" width="2157" height="5252" loading="lazy" decoding="async"></span><span class="cap">Concept B: bear hero</span></button><button type="button" class="shot d" data-cap="Concept C: Cyber Casino hero" aria-label="Enlarge: Concept C: Cyber Casino hero"><span class="pic"><span class="blk"></span><img src="img/th-concept-c-cyber-casino-hero.webp" alt="Concept C: Cyber Casino hero" width="2160" height="5285" loading="lazy" decoding="async"></span><span class="cap">Concept C: Cyber Casino hero</span></button></div></section>
+<section class="sec "><div class="txt"><span class="num serif">02</span><h3 class="serif h3">Mobile homepage</h3><p class="lead">The mobile homepage stacks a hero with a “Get in touch” button, keyword search with game-type and category filters, horizontally scrolling rows for latest, new and popular games, news cards, an FAQ accordion and a footer with newsletter sign-up.</p></div><div class="shots"><button type="button" class="shot m" data-cap="Mobile homepage" aria-label="Enlarge: Mobile homepage"><span class="pic"><span class="blk"></span><img src="img/th-mobile-homepage.webp" alt="Mobile homepage" width="590" height="3992" loading="lazy" decoding="async"></span><span class="cap">Mobile homepage</span></button></div></section>
+<section class="sec rev"><div class="txt"><span class="num serif">03</span><h3 class="serif h3">Games</h3><p class="lead">The games screens combine search and filters with browsable rows, then an all-games grid with pagination and a “More games” link. The second screen shows a paginated grid with “Top” badges on game tiles.</p></div><div class="shots"><button type="button" class="shot m" data-cap="Games: rows and all-games grid" aria-label="Enlarge: Games: rows and all-games grid"><span class="pic"><span class="blk"></span><img src="img/th-games-rows-and-all-games-grid.webp" alt="Games: rows and all-games grid" width="590" height="3228" loading="lazy" decoding="async"></span><span class="cap">Games: rows and all-games grid</span></button><button type="button" class="shot m" data-cap="Games: latest releases grid" aria-label="Enlarge: Games: latest releases grid"><span class="pic"><span class="blk"></span><img src="img/th-games-latest-releases-grid.webp" alt="Games: latest releases grid" width="590" height="2256" loading="lazy" decoding="async"></span><span class="cap">Games: latest releases grid</span></button></div></section>
+<section class="sec "><div class="txt"><span class="num serif">04</span><h3 class="serif h3">About</h3><p class="lead">The about screen opens with “Our mission and value”, then a timeline card, an achievements card, “Looking ahead” cards and an “All jobs” call-to-action.</p></div><div class="shots"><button type="button" class="shot m" data-cap="About: mission and value" aria-label="Enlarge: About: mission and value"><span class="pic"><span class="blk"></span><img src="img/th-tom-horn-gaming-mobile-about-screen.webp" alt="About: mission and value" width="590" height="2228" loading="lazy" decoding="async"></span><span class="cap">About: mission and value</span></button></div></section>
+<section class="sec rev"><div class="txt"><span class="num serif">05</span><h3 class="serif h3">Content network</h3><p class="lead">This screen introduces the content offer with a short intro, a grid of icon benefits, a content-partners logo carousel and “Get in touch” calls-to-action.</p></div><div class="shots"><button type="button" class="shot m" data-cap="Content network" aria-label="Enlarge: Content network"><span class="pic"><span class="blk"></span><img src="img/th-content-network.webp" alt="Content network" width="590" height="2694" loading="lazy" decoding="async"></span><span class="cap">Content network</span></button></div></section>
+<section class="sec "><div class="txt"><span class="num serif">06</span><h3 class="serif h3">Regulated markets</h3><p class="lead">This screen presents a responsible-gaming statement, licence logos, a scrolling row of market flags, success stories and a closing “Explore games” call-to-action.</p></div><div class="shots"><button type="button" class="shot m" data-cap="Regulated markets" aria-label="Enlarge: Regulated markets"><span class="pic"><span class="blk"></span><img src="img/th-regulated-markets.webp" alt="Regulated markets" width="590" height="3078" loading="lazy" decoding="async"></span><span class="cap">Regulated markets</span></button></div></section>
+<section class="sec rev"><div class="txt"><span class="num serif">07</span><h3 class="serif h3">Blog</h3><p class="lead">The blog screen offers keyword search, a categories filter and a two-column grid of article cards with “Read more” links and pagination.</p></div><div class="shots"><button type="button" class="shot m" data-cap="Blog" aria-label="Enlarge: Blog"><span class="pic"><span class="blk"></span><img src="img/th-blog.webp" alt="Blog" width="590" height="2889" loading="lazy" decoding="async"></span><span class="cap">Blog</span></button></div></section>
+
+<div class="next"><a href="#schole" data-go="schole"><span class="eyebrow">Next project</span><span class="serif nx">Schole Centre website →</span></a></div>
+</div>
+</div>
+<div id="view-schole" class="case-view" hidden>
+<nav class="rail" aria-label="Case study contents"><p class="eyebrow">Contents</p><ol></ol></nav>
+<section class="wrap case-head">
+<a class="lnk" href="#home" data-go="home">← Back to home</a>
+<p class="eyebrow rise case-eyebrow">Case study · Education</p>
+<h1 id="schole-title" tabindex="-1" class="serif h1 rise h1-case">Schole Centre <em class="em">website</em></h1>
+<div class="meta">
+<div><i class="serif">Project</i><b>New website</b></div>
+<div><i class="serif">Platforms</i><b>Desktop and mobile</b></div>
+<div><i class="serif">Role</i><b>UI/UX designer</b></div>
+<div><i class="serif">Timeline</i><b>2024, about 4–6 weeks</b></div>
+</div>
+<div class="cover"><div class="proj" style="display:block"><div class="stage" style="padding-left:0;padding-right:40px"><div class="bframe" data-pan tabindex="0" aria-label="Schole Centre desktop homepage. Hover to scroll through the page."><div class="bframe-bar"><b>Schole Centre · Homepage</b><span>Hover to scroll</span></div><div class="win"><img src="img/sc-home-desktop.webp" alt="Schole Centre desktop homepage" width="2163" height="7973" loading="lazy" decoding="async"></div><span class="hint" aria-hidden="true"><span class="t-mouse">↕ Hover to scroll the page</span><span class="t-touch">↕ Tap to scroll the page</span></span></div><div class="pframe" style="left:auto;right:0" data-pan tabindex="0" aria-label="Schole Centre mobile homepage. Hover to scroll through the screen."><div class="win"><img src="img/sc-home-mobile.webp" alt="Schole Centre mobile homepage" width="750" height="2982" loading="lazy" decoding="async"></div></div></div></div></div>
+</section>
+<div class="wrap pb-sec">
+<div class="row"><h2 class="serif rh">Overview</h2><p class="big">A new website for my agency’s second branch, an educational centre offering classes and courses.</p></div>
+<div class="row"><h2 class="serif rh">My role</h2><div class="stack"><p class="big">I was the UI/UX designer. I worked in Figma and collaborated with graphic designers and a developer.</p>
+<p class="big">The logo was created by a graphic designer, and I selected the website’s colour palette. The photography is not my work.</p></div></div>
+<div class="row"><h2 class="serif rh">Goals</h2><p class="big">To help visitors explore courses, learn about trainers and register for classes.</p></div>
+<div class="row"><h2 class="serif rh">The challenge</h2><p class="big">To present course information clearly while creating an engaging experience across desktop and mobile.</p></div>
+</div>
+<div class="band band-pad">
+<div class="wrap">
+<h2 class="serif bh">Design decisions <em class="em">&amp;</em> final screens</h2>
+<p class="band-lead">Course tiles help visitors compare options, and Online/Offline labels clarify the learning format. Registration forms provide convenient sign-up points, while trainer pages introduce the instructors.</p>
+<p class="note">Select any screen to enlarge it. Text in the screens is placeholder content.</p>
+</div>
+</div>
+<div class="wrap">
+<section class="sec wide"><div class="txt"><span class="num serif">01</span><h3 class="serif h3">Homepage</h3><p class="lead">The homepage introduces the centre with a hero, scrolling course tiles, an upcoming-courses grid, About and Portfolio entry points, an FAQ and a registration form. On mobile, the course tiles become a vertical list of full-width buttons.</p></div><div class="shots pair"><button type="button" class="shot w" data-cap="Homepage · desktop" aria-label="Enlarge: Homepage · desktop"><span class="pic"><span class="blk"></span><img src="img/sc-home-desktop.webp" alt="Homepage · desktop" width="2163" height="7973" loading="lazy" decoding="async"></span><span class="cap">Homepage · desktop</span></button><button type="button" class="shot s" data-cap="Homepage · mobile" aria-label="Enlarge: Homepage · mobile"><span class="pic"><span class="blk"></span><img src="img/sc-home-mobile.webp" alt="Homepage · mobile" width="750" height="2982" loading="lazy" decoding="async"></span><span class="cap">Homepage · mobile</span></button></div></section>
+<section class="sec rev"><div class="txt"><span class="num serif">02</span><h3 class="serif h3">Courses</h3><p class="lead">Course tiles help visitors compare options, and Online/Offline labels clarify the learning format. A “Join midway” banner sits above the tiles, and a registration form closes the page.</p></div><div class="shots"><button type="button" class="shot w" data-cap="Courses · desktop" aria-label="Enlarge: Courses · desktop"><span class="pic"><span class="blk"></span><img src="img/sc-courses.webp" alt="Courses · desktop" width="2160" height="4725" loading="lazy" decoding="async"></span><span class="cap">Courses · desktop</span></button></div></section>
+<section class="sec wide"><div class="txt"><span class="num serif">03</span><h3 class="serif h3">Trainers</h3><p class="lead">Trainer pages introduce the instructors. The trainers page shows each one with a portrait, name, subject and a “View course” link; on mobile, a trainer profile adds a Schedule button and the registration form.</p></div><div class="shots pair"><button type="button" class="shot w" data-cap="Trainers · desktop" aria-label="Enlarge: Trainers · desktop"><span class="pic"><span class="blk"></span><img src="img/sc-trainers.webp" alt="Trainers · desktop" width="2157" height="3903" loading="lazy" decoding="async"></span><span class="cap">Trainers · desktop</span></button><button type="button" class="shot s" data-cap="Trainer profile · mobile" aria-label="Enlarge: Trainer profile · mobile"><span class="pic"><span class="blk"></span><img src="img/sc-trainer-mobile.webp" alt="Trainer profile · mobile" width="750" height="1654" loading="lazy" decoding="async"></span><span class="cap">Trainer profile · mobile</span></button></div></section>
+<section class="sec rev"><div class="txt"><span class="num serif">04</span><h3 class="serif h3">Course page</h3><p class="lead">Each course page brings the description, format, duration and price together with the trainer’s profile, students’ portfolios and a registration form, so visitors can sign up from the place where they decide.</p></div><div class="shots"><button type="button" class="shot w" data-cap="Course page · desktop" aria-label="Enlarge: Course page · desktop"><span class="pic"><span class="blk"></span><img src="img/sc-course-page.webp" alt="Course page · desktop" width="2160" height="4844" loading="lazy" decoding="async"></span><span class="cap">Course page · desktop</span></button></div></section>
+<section class="sec "><div class="txt"><span class="num serif">05</span><h3 class="serif h3">About</h3><p class="lead">The About page presents the centre’s mission and vision, followed by a row of what visitors can expect from it.</p></div><div class="shots"><button type="button" class="shot w" data-cap="About · desktop" aria-label="Enlarge: About · desktop"><span class="pic"><span class="blk"></span><img src="img/sc-about.webp" alt="About · desktop" width="2156" height="2891" loading="lazy" decoding="async"></span><span class="cap">About · desktop</span></button></div></section>
+<section class="sec rev"><div class="txt"><span class="num serif">06</span><h3 class="serif h3">Blog</h3><p class="lead">The blog opens with a featured article, followed by a grid of article cards and a “Read more” link.</p></div><div class="shots"><button type="button" class="shot w" data-cap="Blog · desktop" aria-label="Enlarge: Blog · desktop"><span class="pic"><span class="blk"></span><img src="img/sc-blog.webp" alt="Blog · desktop" width="2160" height="2976" loading="lazy" decoding="async"></span><span class="cap">Blog · desktop</span></button></div></section>
+<section class="sec wide"><div class="txt"><span class="num serif">07</span><h3 class="serif h3">Animation walkthrough</h3><p class="lead">A screen recording of the website animations I created to make the experience more creative and engaging.</p></div>
+<div class="shots"><div class="vid"><span class="blk"></span><video controls muted playsinline preload="metadata" poster="img/sc-video-poster.webp" aria-label="Schole Centre website animation walkthrough"><source src="video/schole-animations.mp4" type="video/mp4"><source src="video/schole-animations.webm" type="video/webm">Your browser can’t play this video.</video></div></div></section>
+
+<div class="next"><a href="#case-study" data-go="case-study"><span class="eyebrow">Next project</span><span class="serif nx">Tom Horn Gaming →</span></a></div>
+</div>
+</div>
+<div id="view-travel" class="case-view" hidden>
+<nav class="rail" aria-label="Case study contents"><p class="eyebrow">Contents</p><ol></ol></nav>
+<section class="wrap case-head tight">
+<a class="lnk" href="#home" data-go="home">← Back to home</a>
+<p class="eyebrow rise case-eyebrow">Case study · UX research</p>
+<h1 id="travel-title" tabindex="-1" class="serif h1 rise" style="font-size:clamp(44px,9.4vw,152px);line-height:.9;letter-spacing:-.04em">Yandex Travel — <em class="em">Travel Summary</em></h1>
+<p class="notice" style="margin-top:clamp(24px,4vw,48px)">Educational project for Yandex Practicum; not commissioned by Yandex and not launched.</p>
+<div class="meta">
+<div><i class="serif">Project</i><b>A trip-recap concept</b></div>
+<div><i class="serif">Role</i><b>All stages, independently</b></div>
+<div><i class="serif">Timeline</i><b>May–September 2026</b></div>
+<div><i class="serif">Samples</i><b>3 interviews · 4 usability sessions</b></div>
+</div>
+<div class="cover cover-row"><div class="pframe solo" data-pan tabindex="0" aria-label="Trip summary screen (original Russian interface). Hover to scroll through the screen."><div class="win"><img src="img/tp-summary.webp" alt="Trip summary screen (original Russian interface)" width="585" height="1427" loading="lazy" decoding="async"></div></div><div class="pframe solo" data-pan tabindex="0" aria-label="Edit with privacy settings (original Russian interface). Hover to scroll through the screen."><div class="win"><img src="img/tp-edit.webp" alt="Edit with privacy settings (original Russian interface)" width="585" height="1427" loading="lazy" decoding="async"></div></div><div class="pframe solo" data-pan tabindex="0" aria-label="Preview screen (original Russian interface). Hover to scroll through the screen."><div class="win"><img src="img/tp-preview.webp" alt="Preview screen (original Russian interface)" width="585" height="1289" loading="lazy" decoding="async"></div></div></div>
+</section>
+
+<div class="wrap pb-sec">
+<div class="row"><h2 class="serif rh">Overview</h2><div class="stack"><p class="big">Travel Summary is a concept for Yandex Travel: a recap of a finished trip that a traveller can review, customise and send to someone else.</p><p class="big">The project had two phases: discovery interviews to understand what travellers want from a trip recap, and moderated usability tests of a prototype I designed.</p></div></div>
+
+<div class="row"><h2 class="serif rh">Research goals</h2><div class="stack"><p class="big"><b>Discovery:</b> to understand which memories, facts and visual formats make a trip summary valuable, and what motivates people to share it.</p><p class="big"><b>Usability:</b> to check how clear and easy the Travel Summary prototype is to use, and to find its problem areas.</p></div></div>
+
+<div class="row"><h2 class="serif rh">My role</h2><div class="stack"><p class="big">I completed all stages myself: recruiting participants, conducting discovery interviews and usability tests, analysing the findings, creating the persona and journey map, designing the Figma prototype and writing the reports.</p><p class="big">I received feedback from a Yandex Practicum reviewer.</p></div></div>
+
+<div class="row"><h2 class="serif rh">Methods</h2><div class="stack"><p class="big"><b>Discovery:</b> 3 individual semi-structured interviews with travellers aged 26–33 who had travelled in the previous 6–12 months and planned trips with travel services. The interviews covered how people save memories, their view of automatic summaries, sharing and privacy.</p><p class="big"><b>Usability:</b> moderated online tests of the interactive prototype with 4 participants aged 25–33 who travel from once a year to several times a year. Participants worked through the tasks on their own during a video call, while I observed their path, errors, backtracking and hesitation and asked neutral follow-up questions without hinting at the right path. Five sessions were planned; 4 were completed.</p><p class="big">The two samples are reported separately. I don’t claim a total number of unique participants.</p></div></div>
+
+</div>
+
+<div class="band band-pad">
+<div class="wrap">
+<span class="tag on-panel">Phase 1</span>
+<h2 class="serif bh mt">Discovery <em class="em">findings</em></h2>
+</div>
+</div>
+<div class="wrap" style="padding-top:clamp(40px,6vw,80px);padding-bottom:clamp(56px,8vw,112px)">
+<div class="row"><h2 class="serif rh">The hypothesis</h2><div class="stack"><p class="big">Users would be interested in a visual, emotional trip summary and be motivated to share it.</p><p class="big"><b>Verdict: partially confirmed.</b> Interest in a personal summary was clear, but sharing was not the main value for everyone.</p></div></div>
+
+<div class="row"><h2 class="serif rh">What I observed</h2><div class="stack"><div><span class="tag obs">Observed</span></div><ul class="ul"><li>All 3 participants save trip materials and return to them. They value the summary as a personal archive.</li><li>2 of 3 reacted positively to well-made automatic collections. One said random or blurry frames spoil them. The third valued a structured summary and a convenient archive.</li><li>All 3 want control before sending, through preview, editing, hiding personal details or choosing what to share.</li><li>Sharing habits differ: one participant rarely posts memories publicly, one shares only part of a trip, and one wants to send individual blocks.</li><li>One participant said they like an overview that isn’t too long.</li><li>Personal achievements and statistics got no repeated request, so there is not enough data to treat them as central.</li></ul></div></div>
+<div class="row"><h2 class="serif rh">In their words</h2>
+<div class="quotes"><blockquote class="q serif">Yes, it’s needed. Maybe I’m sending something else and won’t notice a mistake.<cite>Participant 2 · translated from Russian</cite></blockquote><blockquote class="q serif">Some videos I make specifically for social media, and some I keep for myself.<cite>Participant 3 · translated from Russian</cite></blockquote></div></div>
+<div class="row"><h2 class="serif rh">Synthesised persona</h2><div class="stack"><p class="big">A pattern summary built from the 3 discovery interviews. It is not a description of one real person.</p></div></div>
+<div class="persona" role="group" aria-label="Synthesised persona">
+<div class="pl">
+<h4>Segment</h4><p><b>A traveller who saves memories and shares them selectively</b></p>
+<h4>Context</h4><p>After a trip, photos, videos and other materials remain. The person returns to them now and then, on their own or through automatic Memories.</p>
+<h4>Behaviour patterns</h4><ul><li>Saves digital trip materials</li><li>Returns to past memories</li><li>Uses a smartphone as the main tool</li><li>Shares selectively, not everything</li></ul>
+</div>
+<div>
+<h4>Drivers</h4><ul><li>Keep emotionally important moments</li><li>Get back to a past trip quickly</li><li>Get a beautiful summary without long manual work</li><li>See an unexpected but relevant collection</li><li>Share what matters with loved ones</li></ul>
+<h4>Barriers</h4><ul><li>Chaos and manual searching through materials</li><li>Random or irrelevant content</li><li>The risk of showing something personal</li><li>A summary that is too long</li><li>Extra manual preparation before sharing</li></ul>
+</div>
+<div class="need"><h4>Key need</h4><p>Keep the trip in a convenient form for myself, and have full control over what I share with others.</p><small>A synthesised statement, not a quote from one participant.</small></div>
+</div>
+<div class="row mt-row"><h2 class="serif rh">Journey map</h2><div class="stack"><p class="big">Common patterns across the 3 interviews, with touchpoints for each stage. The opportunities are my proposals and haven’t been tested.</p></div></div>
+<div class="cjm" role="group" aria-label="Customer journey map"><div class="cj"><div class="st"><i>1</i><b>Saving</b></div><h4>Actions</h4><p>Saves photos, videos, notes or other keepsakes.</p><h4>Goal</h4><p>Keep the important moments.</p><h4>Touchpoints</h4><p>Camera, phone gallery, notes; one participant also keeps souvenirs.</p><h4>Barriers</h4><p>Materials can stay unstructured.</p><div class="op"><h4>Opportunity · proposed</h4><p>Collect trip materials automatically.</p></div></div><div class="cj"><div class="st"><i>2</i><b>Returning</b></div><h4>Actions</h4><p>Looks through photos and Memories and goes back to a past trip.</p><h4>Goal</h4><p>Quickly recall the trip and its details.</p><h4>Touchpoints</h4><p>Gallery, Google Photos, iPhone Memories.</p><h4>Barriers</h4><p>Finding things depends on how well the context was saved.</p><div class="op"><h4>Opportunity · proposed</h4><p>Keep past trips as a convenient personal archive.</p></div></div><div class="cj"><div class="st"><i>3</i><b>Viewing the summary</b></div><h4>Actions</h4><p>Looks at automatically assembled moments, places and trip context.</p><h4>Goal</h4><p>Get a short, interesting summary.</p><h4>Touchpoints</h4><p>Automatic Memories today; potentially Travel Summary in Yandex Travel.</p><h4>Barriers</h4><p>Random frames or an overly long selection reduce its value.</p><div class="op"><h4>Opportunity · proposed</h4><p>Show a short personal summary, with details on demand.</p></div></div><div class="cj"><div class="st"><i>4</i><b>Preparing to send</b></div><h4>Actions</h4><p>Checks the content, edits it and decides what stays private.</p><h4>Goal</h4><p>Control what another person will see.</p><h4>Touchpoints</h4><p>Gallery or editor, privacy settings, Preview.</p><h4>Barriers</h4><p>Risk of showing too much; needs control and a clear preview.</p><div class="op"><h4>Opportunity · proposed</h4><p>Provide Edit, Privacy and an accurate Preview.</p></div></div><div class="cj"><div class="st"><i>5</i><b>Sharing</b></div><h4>Actions</h4><p>Shows or sends selected materials to loved ones or on social media.</p><h4>Goal</h4><p>Share only what really matters.</p><h4>Touchpoints</h4><p>Instagram, messengers, native share; sometimes showing it in person from the phone.</p><h4>Barriers</h4><p>Doesn’t want to send the whole summary; sharing should be selective.</p><div class="op"><h4>Opportunity · proposed</h4><p>Offer a choice: the whole summary or individual blocks.</p></div></div></div>
+<div class="row mt-row"><h2 class="serif rh">Implications</h2><div class="stack"><div><span class="tag prop">Proposed · untested</span></div><ul class="ul"><li>Sharing should be optional and modular: save for yourself, show it to someone close, or send part or all of the summary.</li><li>Preview, Edit and Privacy belong in the core flow.</li><li>A short first-level summary should open into details on demand.</li></ul></div></div>
+</div>
+
+<div class="wrap" style="padding-bottom:clamp(40px,6vw,80px)">
+<div class="row"><h2 class="serif rh">The tested prototype</h2><div class="stack"><p class="big">I designed an interactive Figma prototype of the Travel Summary sharing flow. The discovery findings informed it, including Preview, Edit and Privacy. This is the prototype I tested with participants.</p>
+<ul class="ul"><li>An entry block on the Yandex Travel home screen announcing that the results are ready</li><li>A summary screen with cards for expenses, visited places, trip moments, transport and route</li><li>Editing, with privacy toggles</li><li>A preview</li><li>Sharing through the standard iOS share menu, then a confirmation</li></ul>
+<div class="tp-note"><span class="tag">Tested prototype</span><p>These are the screens as designed in Figma, with the original Russian interface text, uncropped. Click any screen to enlarge. Proposed improvements are not shown here; they are described under the recommendations.</p></div><div class="tpg"><figure class="tpi"><div class="tph"><span class="serif tpn">1</span><span class="tag ctx">Existing product context</span></div><button type="button" class="shot" data-cap="1. Home screen, existing Yandex Travel" aria-label="Enlarge: Home screen, existing Yandex Travel"><span class="pic"><span class="blk"></span><img src="img/tp-home.webp" alt="Home screen, existing Yandex Travel (original Russian interface)" width="587" height="1476" loading="lazy" decoding="async"></span><span class="cap">Home screen, existing Yandex Travel</span></button><p class="cd mine"><b>My design decision:</b> the “Итоги готовы” card.</p><p class="cd">The Yandex Travel home screen as it already exists; I did not redesign it. My design decision is the “Итоги готовы” (Results ready) card in the Cities row, which opens the Travel Summary.</p><p class="cd rel">Discovery connection: participants returned to past trips and wanted a quick way back to them.</p></figure><figure class="tpi"><div class="tph"><span class="serif tpn">2</span><span class="tag">My design</span></div><button type="button" class="shot" data-cap="2. Trip summary: “Ваше путешествие готово!”" aria-label="Enlarge: Trip summary: “Ваше путешествие готово!”"><span class="pic"><span class="blk"></span><img src="img/tp-summary.webp" alt="Trip summary: “Ваше путешествие готово!” (original Russian interface)" width="585" height="1427" loading="lazy" decoding="async"></span><span class="cap">Trip summary: “Ваше путешествие готово!”</span></button><p class="cd">The generated summary: expenses, number of places, photos and video, duration, transport and route. “Настроить итоги” (Customise summary) leads to editing; “Поделиться” (Share) goes straight to sharing.</p><p class="cd rel">Discovery connection: participants wanted a beautiful summary without long manual work.</p></figure><figure class="tpi"><div class="tph"><span class="serif tpn">3</span><span class="tag">My design</span></div><button type="button" class="shot" data-cap="3. Transport tab" aria-label="Enlarge: Transport tab"><span class="pic"><span class="blk"></span><img src="img/tp-transport.webp" alt="Transport tab (original Russian interface)" width="584" height="768" loading="lazy" decoding="async"></span><span class="cap">Transport tab</span></button><p class="cd">Distance by transport type (plane, taxi, metro, walking, bus) with a total of 59 movements. The “Места” (Places) tab sits beside it.</p><p class="cd rel">Usability connection: distance labels and route information needed clarification.</p></figure><figure class="tpi"><div class="tph"><span class="serif tpn">4</span><span class="tag">My design</span></div><button type="button" class="shot" data-cap="4. Visited places" aria-label="Enlarge: Visited places"><span class="pic"><span class="blk"></span><img src="img/tp-places.webp" alt="Visited places (original Russian interface)" width="584" height="966" loading="lazy" decoding="async"></span><span class="cap">Visited places</span></button><p class="cd">Photos and videos for the trip, filtered by “Все / Фото / Видео” (All / Photo / Video) and shown under date-range headings, with a “+20” tile for the rest of each group.</p><p class="cd rel">Usability connection: two participants also wanted photos grouped by day or location in the Trip Moments section.</p></figure><figure class="tpi"><div class="tph"><span class="serif tpn">5</span><span class="tag">My design</span></div><button type="button" class="shot" data-cap="5. Edit with privacy settings" aria-label="Enlarge: Edit with privacy settings"><span class="pic"><span class="blk"></span><img src="img/tp-edit.webp" alt="Edit with privacy settings (original Russian interface)" width="585" height="1427" loading="lazy" decoding="async"></span><span class="cap">Edit with privacy settings</span></button><p class="cd">The “Редактирование” (Edit) tab. “Настройки приватности” (Privacy settings) has one toggle each for expenses, dates, route and exact locations, with the hint “Switch on the data the recipient will see.” Here all four are on.</p><p class="cd rel">Discovery connection: participants wanted control over what another person sees; Edit and Privacy came from that.</p></figure><figure class="tpi"><div class="tph"><span class="serif tpn">6</span><span class="tag">My design</span></div><button type="button" class="shot" data-cap="6. Preview" aria-label="Enlarge: Preview"><span class="pic"><span class="blk"></span><img src="img/tp-preview.webp" alt="Preview (original Russian interface)" width="585" height="1289" loading="lazy" decoding="async"></span><span class="cap">Preview</span></button><p class="cd">The “Предпросмотр” (Preview) tab, labelled “This is how the recipient will see your summary.” It is the last check before “Поделиться” (Share).</p><p class="cd rel">Usability connection: this is where, in 3 of 4 sessions, data that participants had hidden still appeared. See the central finding below.</p></figure><figure class="tpi"><div class="tph"><span class="serif tpn">7</span><span class="tag">Standard iOS component</span></div><button type="button" class="shot" data-cap="7. iOS share menu" aria-label="Enlarge: iOS share menu"><span class="pic"><span class="blk"></span><img src="img/tp-share.webp" alt="iOS share menu (original Russian interface)" width="586" height="680" loading="lazy" decoding="async"></span><span class="cap">iOS share menu</span></button><p class="cd">After “Поделиться” the standard iOS share menu opens, with contacts and apps. Its names, title and contacts are sample content from the iOS component, not real data.</p><p class="cd rel">Discovery connection: participants shared through messengers and the native share menu.</p></figure><figure class="tpi"><div class="tph"><span class="serif tpn">8</span><span class="tag">My design</span></div><button type="button" class="shot" data-cap="8. Confirmation" aria-label="Enlarge: Confirmation"><span class="pic"><span class="blk"></span><img src="img/tp-success.webp" alt="Confirmation (original Russian interface)" width="585" height="561" loading="lazy" decoding="async"></span><span class="cap">Confirmation</span></button><p class="cd">“Успешно” (Success): “Ваши воспоминания успешно отправлены” (Your memories have been sent successfully), with a “Готово” (Done) button that closes the flow.</p></figure></div><div><a class="btn dark" href="https://www.figma.com/proto/woXrqpJOri2N7vMijgxQWT/Yandex-travel-New-Sharing?page-id=0%3A1&node-id=118-80&viewport=-720%2C-769%2C0.55&t=RV2qjLqWylOTSKNE-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=118%3A80" target="_blank" rel="noopener noreferrer" aria-label="View interactive prototype (opens in a new tab)">View interactive prototype <span aria-hidden="true">↗</span></a></div></div></div>
+</div>
+
+<div class="band band-pad">
+<div class="wrap">
+<span class="tag on-panel">Phase 2</span>
+<h2 class="serif bh mt">Usability <em class="em">findings</em></h2>
+</div>
+</div>
+<div class="wrap" style="padding-top:clamp(48px,7vw,96px)">
+<div class="central">
+<div class="cn serif" aria-hidden="true">3<span>/4</span></div>
+<div><span class="tag obs">Observed · central finding</span>
+<h3 class="serif h3">Privacy and trust</h3>
+<p class="lead" style="font-size:clamp(18px,1.7vw,24px)">In 3 of 4 sessions, data that participants had hidden still appeared in the preview and the final summary. Participants generally understood the privacy toggles. The problem came afterwards: the preview didn’t reflect their choices, so they couldn’t check what the recipient would see.</p>
+<p class="lead" style="font-size:clamp(18px,1.7vw,24px)">That matters because a person could send something they believe is hidden, which undermines trust in the whole sharing feature.</p></div>
+</div>
+</div>
+<div class="wrap" style="padding-top:clamp(40px,6vw,80px);padding-bottom:clamp(56px,8vw,112px)">
+<div class="row"><h2 class="serif rh">Also observed</h2><div class="stack"><div><span class="tag obs">Observed</span></div><ul class="ul"><li><b>The main flow works.</b> All 4 participants completed the sharing flow. They found the main sections, returned to the overview, found editing and privacy settings, and chose a sending method without serious difficulty. Where manual expense entry was tested, 3 of 3 participants understood how it works.</li><li><b>Distance labels and numbers needed clarification.</b> One participant read “500 km” as the distance to a single place, not the total. One participant didn’t immediately understand the places count. For three participants, their understanding of the distances shown next to each transport type could not be confirmed and needed clarification.</li><li><b>Route:</b> Route discovery was confirmed in two sessions; evidence from the other two was insufficient.</li><li><b>Photos:</b> two participants wanted photos grouped, one by place and one by day and place.</li><li><b>Single comments:</b> one participant said they wouldn’t realistically enter every expense during a trip, and one wanted to add restaurants and natural places manually.</li></ul></div></div>
+<div class="row"><h2 class="serif rh">Prioritised recommendations</h2><div class="stack"><div><span class="tag prop">Proposed · untested</span></div><p class="big">These suggestions are based on the observations above. They have not been implemented or retested.</p></div></div>
+<div class="recs"><div class="rec hd"><span>Priority</span><span>Observed</span><span>Proposed recommendation</span></div><div class="rec"><span class="pri h">High</span><span>Hidden data still shown in the preview and final summary (3 of 4 sessions).</span><span>Remove hidden cards and data from the preview and the final version as soon as a toggle changes. Add a line such as “This is how the recipient will see your summary.”</span></div><div class="rec"><span class="pri ">Medium</span><span>Ambiguous numbers: one clear misreading, others unconfirmed.</span><span>Use labels with explicit meaning, for example “Total distance: 500 km”, “20 places visited”, “6 trips · 138 km total”.</span></div><div class="rec"><span class="pri ">Medium</span><span>The route isn’t clearly its own block (confirmed in 2 of 4 sessions).</span><span>Make the route more prominent as a separate block, and label total distance separately from individual points.</span></div><div class="rec"><span class="pri ">Low</span><span>Manual expense entry may take effort (1 of 3 participants where tested).</span><span>Make adding an amount as quick as possible, and allow filling in or editing expenses after the trip.</span></div><div class="rec"><span class="pri ">Low</span><span>Photos aren’t grouped (2 participants).</span><span>Group photos by day and location, and keep the option to see everything in one feed.</span></div><div class="rec"><span class="pri ">Low</span><span>Places can’t be added manually (1 participant).</span><span>Consider manual place entry later, after the main usability issues are fixed.</span></div></div>
+<div class="row mt-row"><h2 class="serif rh">Limitations and next steps</h2><div class="stack"><ul class="ul"><li><b>Small samples.</b> 3 discovery interviews and 4 of 5 planned usability sessions completed. The findings are qualitative and aren’t statistically representative.</li><li><b>Discovery participants.</b> All three worked in creative fields, so they don’t represent the full Yandex Travel audience.</li><li><b>Uneven coverage.</b> Topics were discussed in different depth, and not every task was assessed with every participant. The route, for example, was confirmed in only two sessions.</li><li><b>Quotes.</b> One discovery interview has no verbatim transcript, so it has no quote. The usability reports contain no verbatim transcripts, so there are no usability quotes.</li><li><b>Counts.</b> Usability counts are taken from my final usability report.</li><li><b>Not retested.</b> The recommendations are untested.</li></ul>
+<p class="big"><b>Next steps:</b> fix the privacy, number-label and route issues, then run a short retest with new participants. The retest would check that:</p>
+<ul class="ul"><li>a hidden card really disappears from the preview and the sent version</li><li>participants can explain “500 km” and the other figures without prompting</li><li>participants can find the route directly</li><li>participants find manual expense entry quick enough</li></ul>
+<p class="big">The discovery patterns would also be worth checking with a wider audience.</p></div></div>
+<div class="next"><a href="#case-study" data-go="case-study"><span class="eyebrow">Next project</span><span class="serif nx">Tom Horn Gaming →</span></a></div>
+</div>
+</div>
+</main>
+
+<footer id="contact" class="foot">
+<div class="wrap">
+<h2 class="serif">Let’s talk.</h2>
+<div class="mail"><a class="addr" href="mailto:madlensargsyann@gmail.com">madlensargsyann@gmail.com</a><button type="button" class="copy" id="copy-email" data-email="madlensargsyann@gmail.com">Copy email</button><span class="sr" id="copy-status" role="status" aria-live="polite"></span></div>
+<div class="bottom">
+<p>© Madlen Sargsyan</p>
+<nav aria-label="Footer"><a href="https://www.behance.net/madlensargsyan" target="_blank" rel="noopener noreferrer">Behance ↗</a><a href="#home" data-go="top">Back to top ↑</a></nav>
+</div>
+</div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Enlarged screen" hidden>
+<div class="lb-bar">
+<span id="lb-info" style="font-weight:600"></span>
+<span style="display:flex;gap:8px">
+<button type="button" id="lb-prev" aria-label="Previous screen">←</button>
+<button type="button" id="lb-next" aria-label="Next screen">→</button>
+<button type="button" id="lb-close">Close ✕</button>
+</span>
+</div>
+<img id="lb-img" alt="">
+</div>
+
+<script>
+(function(){
+var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+var vHome=document.getElementById('view-home'),vCase=document.getElementById('view-case'),vSch=document.getElementById('view-schole'),vTrv=document.getElementById('view-travel'),cur='home';
+function setView(v){cur=v;document.body.classList.toggle('in-case',v!=='home');document.getElementById('progress').hidden=v==='home';showHead();if(window.__afterView)setTimeout(window.__afterView,0);vHome.hidden=v!=='home';vCase.hidden=v!=='case';vSch.hidden=v!=='schole';vTrv.hidden=v!=='travel';document.title=v==='travel'?'Travel Summary case study — Madlen Sargsyan':v==='case'?'Tom Horn Gaming case study — Madlen Sargsyan':v==='schole'?'Schole Centre case study — Madlen Sargsyan':'Madlen Sargsyan — UI/UX Designer'}
+function focusId(id){var e=document.getElementById(id);if(e){try{e.focus({preventScroll:true})}catch(x){}}}
+function scrollTo_(el){el.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'})}
+function route(t,init){
+t=(t||'').replace(/^#/,'');
+if(t==='travel'){setView('travel');window.scrollTo(0,0);if(!init)focusId('travel-title');return}
+if(t==='schole'){setView('schole');window.scrollTo(0,0);if(!init)focusId('schole-title');return}
+if(t==='case-study'){setView('case');window.scrollTo(0,0);if(!init)focusId('case-title');return}
+if(t==='contact'){scrollTo_(document.getElementById('contact'));return}
+if(t==='top'){window.scrollTo({top:0,behavior:reduce?'auto':'smooth'});return}
+var changed=cur!=='home';if(changed)setView('home');
+if(t==='work'||t==='about'){var el=document.getElementById(t);if(changed){window.scrollTo(0,0);requestAnimationFrame(function(){scrollTo_(el)})}else scrollTo_(el)}
+else if(!init){window.scrollTo(0,0);focusId('home-title')}
+}
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[data-go]');if(!a)return;e.preventDefault();route(a.getAttribute('data-go'))});
+window.addEventListener('hashchange',function(){route(location.hash)});
+var head=document.getElementById('site-head'),lastY=window.scrollY;
+function showHead(){head.classList.remove('hide')}
+route(location.hash,true);
+
+var lb=document.getElementById('lb'),lbImg=document.getElementById('lb-img'),info=document.getElementById('lb-info'),idx=0,last=null,btns=[];
+function collect(){var root=(last&&last.closest('[id^="view-"]'))||document;btns=[].slice.call(root.querySelectorAll('.shot'))}
+function show(i){collect();idx=(i+btns.length)%btns.length;var b=btns[idx],im=b.querySelector('img');lbImg.src=im.src;lbImg.alt=im.alt;lb.classList.remove('full');info.textContent=b.getAttribute('data-cap')+'  ·  '+(idx+1)+' / '+btns.length;lb.scrollTop=0}
+function open(b){last=b;collect();idx=btns.indexOf(b);lb.hidden=false;document.body.style.overflow='hidden';show(idx);document.getElementById('lb-close').focus()}
+function close(){lb.hidden=true;document.body.style.overflow='';if(last)last.focus()}
+document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('.shot');if(b)open(b)});
+document.getElementById('lb-close').onclick=close;
+document.getElementById('lb-prev').onclick=function(){show(idx-1)};
+document.getElementById('lb-next').onclick=function(){show(idx+1)};
+lbImg.onclick=function(){if(lbImg.naturalWidth>lb.clientWidth-32)lb.classList.toggle('full')};
+lb.addEventListener('click',function(e){if(e.target===lb)close()});
+document.addEventListener('keydown',function(e){if(lb.hidden)return;if(e.key==='Escape')close();else if(e.key==='ArrowLeft')show(idx-1);else if(e.key==='ArrowRight')show(idx+1);else if(e.key==='Tab'){var f=[].slice.call(lb.querySelectorAll('button')),i=f.indexOf(document.activeElement);if(e.shiftKey&&i<=0){e.preventDefault();f[f.length-1].focus()}else if(!e.shiftKey&&i===f.length-1){e.preventDefault();f[0].focus()}}});
+
+/* 1. smart header + active section + 6. progress and rail */
+var navLinks=[].slice.call(document.querySelectorAll('.nav a[data-sec]')),prog=document.querySelector('#progress i'),ticking=false;
+function onScroll(){
+  ticking=false;
+  var y=window.scrollY;
+  head.classList.toggle('stuck',y>8);
+  if(lb.hidden){ if(y>140&&y>lastY+6)head.classList.add('hide'); else if(y<lastY-6||y<140)head.classList.remove('hide'); }
+  lastY=y;
+  var sec=null;
+  if(cur==='home'){
+    var mark=y+window.innerHeight*0.35;
+    [['work','work'],['work-2','work'],['work-3','work'],['about','about']].forEach(function(p){var el=document.getElementById(p[0]);if(el&&el.offsetTop<=mark)sec=p[1]});
+    var c=document.getElementById('contact');if(c.getBoundingClientRect().top<window.innerHeight*0.6)sec='contact';
+  } else sec='work';
+  navLinks.forEach(function(a){a.classList.toggle('on',a.getAttribute('data-sec')===sec)});
+  if(cur!=='home'){
+    var max=document.documentElement.scrollHeight-window.innerHeight;
+    prog.style.width=(max>0?Math.min(100,y/max*100):0)+'%';
+    var view=document.getElementById('view-'+cur),rail=view.querySelector('.rail');
+    if(rail){
+      var links=rail.querySelectorAll('a'),active=null;
+      links.forEach(function(a){var t=document.getElementById(a.getAttribute('data-t'));if(t&&t.getBoundingClientRect().top<window.innerHeight*0.3)active=a});
+      links.forEach(function(a){a.classList.toggle('on',a===active)});
+      rail.classList.toggle('off',document.getElementById('contact').getBoundingClientRect().top<window.innerHeight-40);
+    }
+  }
+}
+window.addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(onScroll)}},{passive:true});
+window.addEventListener('resize',onScroll);
+window.__afterView=onScroll;
+
+/* 6. build case-study contents from headings */
+function slug(t){return t.toLowerCase().replace(/&amp;|&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,40)}
+['case','schole','travel'].forEach(function(v){
+  var view=document.getElementById('view-'+v),ol=view.querySelector('.rail ol');if(!ol)return;
+  view.querySelectorAll('.row > h2, .band h2, .sec .h3, .central .h3').forEach(function(h){
+    var sec=h.closest('.sec'),num=sec?sec.querySelector('.num'):null;
+    var label=(num?num.textContent.trim()+' ':'')+h.textContent.trim();
+    var target=sec||h.closest('.row')||h.closest('.band')||h.closest('.central')||h;
+    if(!target.id)target.id=v+'-'+slug(label);
+    var li=document.createElement('li'),a=document.createElement('a');
+    a.href='#'+target.id;a.setAttribute('data-t',target.id);a.textContent=label;
+    a.addEventListener('click',function(e){e.preventDefault();target.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'})});
+    li.appendChild(a);ol.appendChild(li);
+  });
+});
+
+/* 3. project index hover preview */
+var idx=document.getElementById('idx');
+if(idx){
+  var pv=idx.querySelector('.idx-prev'),pvImg=pv.querySelector('img');
+  idx.querySelectorAll('a[data-img]').forEach(function(a){
+    a.addEventListener('mouseenter',function(){
+      var src=a.getAttribute('data-img');
+      if(pvImg.getAttribute('src')!==src){pvImg.setAttribute('src',src);pvImg.style.animation='none';void pvImg.offsetWidth;pvImg.style.animation=''}
+      pv.classList.add('on');
+    });
+    a.addEventListener('mousemove',function(e){
+      var r=idx.getBoundingClientRect();
+      pv.style.left=Math.max(0,Math.min(e.clientX-r.left+80,r.width-230))+'px';
+      pv.style.top=Math.max(-40,Math.min(e.clientY-r.top-140,r.height-240))+'px';
+    });
+    a.addEventListener('mouseleave',function(){pv.classList.remove('on')});
+  });
+}
+
+/* 4. scroll-through frames */
+function panDist(f){var w=f.querySelector('.win'),im=w.querySelector('img');return Math.max(0,im.offsetHeight-w.clientHeight)}
+function panGo(f){var im=f.querySelector('.win img'),d=panDist(f),t=reduce?0:Math.min(10,Math.max(1.2,d/260));im.style.transitionDuration=t+'s';im.style.transform='translateY('+(-d)+'px)';f.classList.add('moving');f.dataset.on='1'}
+function panReset(f){var im=f.querySelector('.win img');im.style.transitionDuration=reduce?'0s':'.9s';im.style.transform='translateY(0)';f.classList.remove('moving');f.dataset.on=''}
+document.querySelectorAll('[data-pan]').forEach(function(f){
+  f.addEventListener('pointerenter',function(e){if(e.pointerType==='mouse')panGo(f)});
+  f.addEventListener('pointerleave',function(e){if(e.pointerType==='mouse')panReset(f)});
+  f.addEventListener('click',function(e){
+    if(e.pointerType&&e.pointerType!=='mouse'){f.dataset.on?panReset(f):panGo(f);return}
+    if(f.dataset.go)route(f.dataset.go); else f.dataset.on?panReset(f):panGo(f);
+  });
+  f.addEventListener('keydown',function(e){
+    if(e.key===' '){e.preventDefault();f.dataset.on?panReset(f):panGo(f)}
+    else if(e.key==='Enter'){e.preventDefault();if(f.dataset.go)route(f.dataset.go);else f.dataset.on?panReset(f):panGo(f)}
+  });
+});
+
+/* 4. reveal on scroll (content stays visible without JS or with reduced motion) */
+if(!reduce&&'IntersectionObserver' in window){
+  document.documentElement.classList.add('js-reveal');
+  var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{rootMargin:'0px 0px -10% 0px'});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+}
+
+/* 8. copy email */
+var cb=document.getElementById('copy-email'),cs=document.getElementById('copy-status');
+cb.addEventListener('click',function(){
+  var mail=cb.getAttribute('data-email');
+  function ok(){cb.textContent='Copied ✓';cs.textContent='Email address copied';setTimeout(function(){cb.textContent='Copy email';cs.textContent=''},2000)}
+  function fail(){var r=document.createRange();r.selectNodeContents(document.querySelector('.mail .addr'));var sel=getSelection();sel.removeAllRanges();sel.addRange(r);cb.textContent='Press ⌘C to copy'}
+  try{navigator.clipboard.writeText(mail).then(ok,fail)}catch(x){fail()}
+});
+onScroll();
+})();
+</script>
+</body>
+</html>
